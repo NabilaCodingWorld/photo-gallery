@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-underline {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+img {
+  width: 95%;
+  /* border-radius: 5%; */
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 10px;
+  margin: 50px 50px;
+}
